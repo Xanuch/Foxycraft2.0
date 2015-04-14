@@ -1,0 +1,566 @@
+[19:33:55] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[19:33:55] [Client thread/INFO] [JourneyMap] ensureCurrent ENTER
+[19:33:55] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\config\5.0\journeymap.core.config
+[19:33:55] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\config\5.0\journeymap.fullmap.config
+[19:33:55] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\config\5.0\journeymap.minimap.config
+[19:33:55] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\config\5.0\journeymap.minimap2.config
+[19:33:55] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\config\5.0\journeymap.webmap.config
+[19:33:55] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\config\5.0\journeymap.waypoint.config
+[19:33:55] [Client thread/INFO] [?] Version: JourneyMap 5.0.1 Unlimited, built with Forge 10.13.0.1208
+Forge: 10.13.2.1352
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_US, locale=en_us
+Unlimited Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+MiniMapProperties{entityIconSetName=2D, showAnimals=true, showMobs=true, showPets=true, showPlayers=true, showSelf=true, showVillagers=true, showWaypoints=true, zoomLevel=0, fontScale=1, locationFormat=xzyv, locationFormatVerbose=true, showCaves=true, showWaypointLabels=true, showMobHeading=true, showPlayerHeading=true, textureSmall=true, active=true, compassFontScale=1, enabled=true, frameAlpha=100, name=minimap, orientation=North, position=Top Right, preferredMapType=day, reticleOrientation=Compass, shape=Circle, showBiome=true, showCompass=true, showFps=false, showLocation=true, showReticle=true, sizePercent=30, terrainAlpha=100}
+MiniMapProperties2{enabled=true, shape=Rectangle, position=Top Center, showFps=false, showBiome=true, showLocation=true, showWaypointLabels=true, sizePercent=30, frameAlpha=60, terrainAlpha=60, orientation=My Heading, compassFontScale=1, showCompass=true, showReticle=true, reticleOrientation=Compass, preferredMapType=day, name=minimap2, id=2}
+FullMapProperties{entityIconSetName=2D, showAnimals=true, showMobs=true, showPets=true, showPlayers=true, showSelf=true, showVillagers=true, showWaypoints=true, zoomLevel=1, fontScale=1, locationFormat=xzyv, locationFormatVerbose=true, showCaves=true, showWaypointLabels=true, showMobHeading=true, showPlayerHeading=true, textureSmall=true, preferredMapType=day, showGrid=true}
+WaypointProperties{autoHideLabel=true, beaconEnabled=true, boldLabel=false, createDeathpoints=true, fontScale=2, managerEnabled=true, maxDistance=0, name=waypoint, showDistance=true, showName=true, showRotatingBeam=true, showStaticBeam=true, showTexture=true, textureSmall=true}
+WebMapProperties: , enabled=false, port=8080, showMobs=true, showAnimals=true, showVillagers=true, showPets=true, showPlayers=true, showWaypoints=true, entityIconSetName=2D
+CoreProperties{announceMod=true, autoMapPoll=2000, browserPoll=2000, cacheAnimalsData=3100, cacheMobsData=3000, cachePlayerData=1000, cachePlayersData=2000, cacheVillagersData=2200, caveIgnoreGlass=true, checkUpdates=true, chunkOffset=8, chunkPoll=2000, hideSneakingEntities=true, logLevel=INFO, mapAntialiasing=true, mapBathymetry=false, mapCaveLighting=true, mapCrops=true, mapPlants=false, mapPlantShadows=false, mapSurfaceAboveCaves=true, mapTransparency=true, maxAnimalsData=32, maxMobsData=32, maxPlayersData=32, maxVillagersData=32, optionsManagerUsed=true, radarLateralDistance=64, radarVerticalDistance=16, recordCacheStats=false, renderOverlayEventTypeName=ALL, renderOverlayPreEvent=true, themeName=Victorian}
+[19:33:55] [Client thread/INFO] [JourneyMap] ensureCurrent EXIT, elapsed time: 464.49ms
+[19:34:26] [Client thread/INFO] [JourneyMap] postInitialize ENTER
+[19:34:26] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.ChatEventHandler registered in MinecraftForgeBus
+[19:34:26] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.StateTickHandler registered in FMLCommonHandlerBus
+[19:34:26] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.WorldEventHandler registered in MinecraftForgeBus
+[19:34:26] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.ChunkUpdateHandler registered in MinecraftForgeBus
+[19:34:26] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.WaypointBeaconHandler registered in MinecraftForgeBus
+[19:34:26] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
+[19:34:27] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.MiniMapOverlayHandler registered in MinecraftForgeBus
+[19:34:27] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.KeyEventHandler registered in FMLCommonHandlerBus
+[19:34:27] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
+[19:34:27] [Client thread/TRACE] [ThemeFileHandler] Initializing themes ...
+[19:34:28] [Client thread/DEBUG] [PropertiesBase] Saved journeymap.webmap.config
+[19:34:28] [Client thread/INFO] [JourneyMap] postInitialize EXIT, elapsed time: 1974.33ms
+[19:35:46] [Client thread/INFO] [WaypointStore] Loaded 1 waypoints from D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\data\sp\-7743598627739735600\waypoints
+[19:35:47] [Client thread/INFO] [ColorCache] Getting color palette for Resource Pack(s): Default
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:barrel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:sifting_table
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:aluminum_dust
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:aluminum_gravel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:aluminum_sand
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:arcaneDeconstructor
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:blockArcaneReconstructor
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:armorInfuser
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:bee_trap
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:astralBarrier
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:Aum
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:barrel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:sifting_table
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:blackAurem
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:vinteumOre
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:vinteumOre
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:brokenLinkBlock
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:calefactor
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: chisel:stonebricksmooth2
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: chisel:stonebricksmooth2
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: chisel:stonebricksmooth2
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: chisel:stonebricksmooth2
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:celestialPrism
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:blueOrchid
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:vinteumOre
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:copper_dust
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:copper_gravel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:nether_copper_gravel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:copper_sand
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:CraftingAltar
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:crucible
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:exnihilo.gravel_ender
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:exnihilo.gravel_nether
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:barrel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:sifting_table
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:desertNova
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:dust
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:essenceRefiner
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:essenceConduit
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:everstone
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:crystalMarker
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:crystalMarker
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:elementalAttuner
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:flickerLure
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:goldInlay
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:gold_dust
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:gold_gravel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:nether_gold_gravel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:gold_sand
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:illusionBlock
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:illusionBlock
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:crystalMarker
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:inertSpawner
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:InscriptionTable
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:invisibleUtility
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:ironInlay
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:iron_dust
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:iron_gravel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:nether_iron_gravel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:iron_sand
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:barrel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:sifting_table
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:keystoneChest
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:keystoneDoor
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:keystoneReceptacle
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:keystoneTrapDoor
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:lead_dust
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:ender_lead_gravel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:lead_gravel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:lead_sand
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:blockLectern
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:liquidEssence
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:mageTorch
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:magicWall
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:magiciansWorkbench
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:manaBattery
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:crystalMarker
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:vinteumOre
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:vinteumOre
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:nickel_dust
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:nether_nickel_gravel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:nickel_gravel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:nickel_sand
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:barrel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:sifting_table
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:obelisk
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:occulus
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:osmium_dust
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:osmium_gravel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:osmium_sand
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:otherworldAura
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:ParticleEmitter
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:candle
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:platinum_dust
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:ender_platinum_gravel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:platinum_gravel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:platinum_sand
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:redstoneInlay
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:crystalMarker
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:crystalMarker
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:bee_trap_treated
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:seerStone
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:crystalMarker
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:crystalMarker
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:silver_dust
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:ender_silver_gravel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:silver_gravel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:silver_sand
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:slipstreamGenerator
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:crystalMarker
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:SpellRune
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:barrel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:sifting_table
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:barrel_stone
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:Summoner
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:vinteumOre
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:vinteumOre
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:TarmaRoot
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:tin_dust
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:ender_tin_gravel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:tin_gravel
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:tin_sand
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:crucible_unfired
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:vinteumOre
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:vinteumOre
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:vinteumOre
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:VinteumTorch
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:wakebloom
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:witchwater
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLog
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:planksWitchwood
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:saplingWitchwood
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:witchwoodDoubleSlab
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:witchwoodSingleSlab
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:stairsWitchwood
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:wizardChalk
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: exnihilo:infested_leaves
+[19:35:49] [Client thread/WARN] [ColorPalette] Block referenced in Color Palette is not registered: arsmagica2:WitchwoodLeaves
+[19:35:49] [Client thread/INFO] [ColorCache] Color palette loaded 76290 colors in 555ms from file: D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\colorpalette.json
+[19:35:49] [Client thread/INFO] [JourneyMap] Mapping started in D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\data\sp\-7743598627739735600\DIM0. Memory: 2215MB total, 879MB free 
+[19:36:15] [JM-VersionCheck-5/INFO] [VersionCheck$1] Checking for updated version: https://dl.dropboxusercontent.com/u/38077766/JourneyMap/journeymap-versions.json
+[19:36:15] [Client thread/INFO] [ChatLog] JourneyMap: Press [M]. (Webserver disabled.)
+[19:36:16] [JM-task-6/ERROR] [IconLoader] Error getting color: java.lang.NullPointerException
+	at net.minecraft.block.BlockDoublePlant.func_149888_a(BlockDoublePlant.java:128)
+	at net.techbrew.journeymap.io.IconLoader.getDirectIcon(IconLoader.java:123)
+	at net.techbrew.journeymap.io.IconLoader.loadBlockColor(IconLoader.java:78)
+	at net.techbrew.journeymap.cartography.ColorCache.loadBaseColor(ColorCache.java:429)
+	at net.techbrew.journeymap.cartography.ColorCache.getBaseColor(ColorCache.java:410)
+	at net.techbrew.journeymap.cartography.ColorCache.getBlockColor(ColorCache.java:235)
+	at net.techbrew.journeymap.model.BlockMD.getColor(BlockMD.java:196)
+	at net.techbrew.journeymap.cartography.render.BaseRenderer.setStratumColors(BaseRenderer.java:152)
+	at net.techbrew.journeymap.cartography.Strata.nextUp(Strata.java:182)
+	at net.techbrew.journeymap.cartography.render.CaveRenderer.paintStrata(CaveRenderer.java:342)
+	at net.techbrew.journeymap.cartography.render.CaveRenderer.renderUnderground(CaveRenderer.java:239)
+	at net.techbrew.journeymap.cartography.render.CaveRenderer.render(CaveRenderer.java:125)
+	at net.techbrew.journeymap.cartography.ChunkRenderController.getChunkImage(ChunkRenderController.java:103)
+	at net.techbrew.journeymap.task.BaseMapTask.performTask(BaseMapTask.java:122)
+	at net.techbrew.journeymap.task.TaskBatch.performTask(TaskBatch.java:67)
+	at net.techbrew.journeymap.thread.RunnableTask$Inner.run(RunnableTask.java:77)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[19:36:16] [JM-task-6/WARN] [ColorCache] Iconloader failed to get base color for BlockMD [Botania:doubleFlower1:13]
+[19:36:17] [JM-VersionCheck-5/INFO] [VersionCheck$1] Current version online: JourneyMap 5.0.1 for Minecraft 1.7.10 on http://journeymap.techbrew.net/download
+[19:36:42] [Server thread/INFO] [JourneyMap] Mapping halted in D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\data\sp\-7743598627739735600\DIM0
+[19:36:42] [JM-task-6/WARN] [StatTimer] MapPlayerTask.performTask is not running.
+[19:36:42] [JM-task-6/WARN] [StatTimer] MapPlayerTask.performTask is not running.
+[19:36:42] [JM-task-6/WARN] [StatTimer] MapPlayerTask.performTask is not running.
+[19:36:45] [Client thread/INFO] [WaypointStore] Loaded 1 waypoints from D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\data\sp\-7743598627739735600\waypoints
+[19:36:45] [Client thread/INFO] [JourneyMap] Mapping started in D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\data\sp\-7743598627739735600\DIM0. Memory: 2215MB total, 595MB free 
+[19:36:48] [Server thread/INFO] [JourneyMap] Mapping halted in D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\data\sp\-7743598627739735600\DIM0
+[19:36:49] [Client thread/INFO] [WaypointStore] Loaded 1 waypoints from D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\data\sp\-7743598627739735600\waypoints
+[19:36:49] [Client thread/INFO] [JourneyMap] Mapping started in D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\data\sp\-7743598627739735600\DIM0. Memory: 2215MB total, 686MB free 
+[19:37:57] [Finalizer/ERROR] [JMLogger] Tile improperly disposed: No OpenGL context found in the current thread. (SUPPRESSED)
+[19:40:21] [JM-task-8/ERROR] [IconLoader] Error getting color: java.lang.NullPointerException
+	at net.minecraft.block.BlockDoublePlant.func_149888_a(BlockDoublePlant.java:128)
+	at net.techbrew.journeymap.io.IconLoader.getDirectIcon(IconLoader.java:123)
+	at net.techbrew.journeymap.io.IconLoader.loadBlockColor(IconLoader.java:78)
+	at net.techbrew.journeymap.cartography.ColorCache.loadBaseColor(ColorCache.java:429)
+	at net.techbrew.journeymap.cartography.ColorCache.getBaseColor(ColorCache.java:410)
+	at net.techbrew.journeymap.cartography.ColorCache.getBlockColor(ColorCache.java:235)
+	at net.techbrew.journeymap.model.BlockMD.getColor(BlockMD.java:196)
+	at net.techbrew.journeymap.cartography.render.BaseRenderer.setStratumColors(BaseRenderer.java:152)
+	at net.techbrew.journeymap.cartography.Strata.nextUp(Strata.java:182)
+	at net.techbrew.journeymap.cartography.render.CaveRenderer.paintStrata(CaveRenderer.java:342)
+	at net.techbrew.journeymap.cartography.render.CaveRenderer.renderUnderground(CaveRenderer.java:239)
+	at net.techbrew.journeymap.cartography.render.CaveRenderer.render(CaveRenderer.java:125)
+	at net.techbrew.journeymap.cartography.ChunkRenderController.getChunkImage(ChunkRenderController.java:103)
+	at net.techbrew.journeymap.task.BaseMapTask.performTask(BaseMapTask.java:122)
+	at net.techbrew.journeymap.task.TaskBatch.performTask(TaskBatch.java:67)
+	at net.techbrew.journeymap.thread.RunnableTask$Inner.run(RunnableTask.java:77)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[19:40:21] [JM-task-8/WARN] [ColorCache] Iconloader failed to get base color for BlockMD [Botania:doubleFlower1:8]
+[19:44:14] [Client thread/INFO] [JourneyMap] Mapping halted in D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\data\sp\-7743598627739735600\DIM0
+[19:44:14] [JM-task-8/WARN] [StatTimer] MapPlayerTask.performTask is not running.
+[19:44:14] [JM-task-8/WARN] [StatTimer] MapPlayerTask.performTask is not running.
+[19:44:14] [JM-task-8/WARN] [StatTimer] MapPlayerTask.performTask is not running.
+[19:44:14] [JM-task-8/WARN] [StatTimer] MapPlayerTask.performTask is not running.
+[20:08:14] [Client thread/INFO] [WaypointStore] Loaded 1 waypoints from D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\data\sp\-7743598627739735600\waypoints
+[20:08:14] [Client thread/INFO] [JourneyMap] Mapping started in D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\data\sp\-7743598627739735600\DIM0. Memory: 2620MB total, 1007MB free 
+[20:09:06] [Server thread/INFO] [JourneyMap] Mapping halted in D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\data\sp\-7743598627739735600\DIM0
+[20:09:07] [Client thread/INFO] [WaypointStore] Loaded 1 waypoints from D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\data\sp\-7743598627739735600\waypoints
+[20:09:07] [Client thread/INFO] [JourneyMap] Mapping started in D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\data\sp\-7743598627739735600\DIM0. Memory: 2620MB total, 600MB free 
+[20:09:11] [Server thread/INFO] [JourneyMap] Mapping halted in D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\data\sp\-7743598627739735600\DIM0
+[20:09:11] [JM-task-10/WARN] [StatTimer] MapPlayerTask.performTask is not running.
+[20:09:11] [JM-task-10/WARN] [StatTimer] MapPlayerTask.performTask is not running.
+[20:09:11] [JM-task-10/WARN] [StatTimer] MapPlayerTask.performTask is not running.
+[20:09:11] [JM-task-10/WARN] [StatTimer] MapPlayerTask.performTask is not running.
+[20:09:11] [JM-task-10/WARN] [RunnableTask] Interrupted task that ran too long:net.techbrew.journeymap.task.TaskBatch@1e4cec79
+[20:09:12] [Client thread/INFO] [WaypointStore] Loaded 1 waypoints from D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\data\sp\-7743598627739735600\waypoints
+[20:09:12] [Client thread/INFO] [JourneyMap] Mapping started in D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\data\sp\-7743598627739735600\DIM0. Memory: 2891MB total, 1234MB free 
+[20:10:25] [Client thread/INFO] [ChatLog] JourneyMap: Saving map to screenshots: 2015-04-13_20.10.23_-7743598627739735600_Overworld_day.png
+[20:10:28] [JM-task-11/INFO] [MapSaver] Map filesize:2775185
+[20:10:29] [Client thread/INFO] [ChatLog] JourneyMap: Map saved: D:\MultiMC\instances\Foxycraft 2.0\minecraft\screenshots\2015-04-13_20.10.23_-7743598627739735600_Overworld_day.png
+[20:16:41] [Client thread/INFO] [JourneyMap] Mapping halted in D:\MultiMC\instances\Foxycraft 2.0\minecraft\journeymap\data\sp\-7743598627739735600\DIM0
