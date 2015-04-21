@@ -15,5 +15,10 @@ minecraft/SVLib.log
 *.file
 
 #Directories
-minecraft/
+minecraft/**
+minecraft/*.log
+minecraft/logs/**
+minecraft/journeymap/**
+minecraft/screenshots/**
+minecraft/screenshots/
 natives/
