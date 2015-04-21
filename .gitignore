@@ -9,8 +9,11 @@ minecraft\usernamecache.json
 
 # Use wildcards as well
 *.log
+*.file
 
 # Can also ignore all directories and files in a directory.
-minecraft\journeymap\*
-minecraft\logs\*
-minecraft\saves\*
+minecraft/journeymap/
+minecraft/logs/
+minecraft/saves/
+minecraft/asm/
+minecraft/crash*
