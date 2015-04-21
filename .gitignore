@@ -13,6 +13,7 @@ minecraft/SVLib.log
 #The types of files I seriously don't need.
 *.log
 *.file
+*.ini
 
 #Directories
 minecraft/**
@@ -22,3 +23,8 @@ minecraft/journeymap/**
 minecraft/screenshots/**
 minecraft/screenshots/
 natives/
+minecraft/config/IguanaTinkerTweaks/restrictions.cfg
+minecraft/mods/carpentersblocks/CarpentersBlocksCachedResources.zip
+minecraft/config/InvTweaks.cfg
+minecraft/config/IguanaTinkerTweaks/restrictions.cfg
+minecraft/journeymap/journeymap.log
