@@ -1,13 +1,13 @@
-[19:06:18] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
-[19:06:18] [Client thread/INFO] [JourneyMap] ensureCurrent ENTER
-[19:06:19] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from D:\MultiMC\instances\Foxycraft2.0\minecraft\journeymap\config\5.0\journeymap.core.config
-[19:06:19] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from D:\MultiMC\instances\Foxycraft2.0\minecraft\journeymap\config\5.0\journeymap.fullmap.config
-[19:06:19] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from D:\MultiMC\instances\Foxycraft2.0\minecraft\journeymap\config\5.0\journeymap.minimap.config
-[19:06:19] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from D:\MultiMC\instances\Foxycraft2.0\minecraft\journeymap\config\5.0\journeymap.minimap2.config
-[19:06:19] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from D:\MultiMC\instances\Foxycraft2.0\minecraft\journeymap\config\5.0\journeymap.webmap.config
-[19:06:19] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from D:\MultiMC\instances\Foxycraft2.0\minecraft\journeymap\config\5.0\journeymap.waypoint.config
-[19:06:19] [Client thread/INFO] [?] Version: JourneyMap 5.0.1 Unlimited, built with Forge 10.13.0.1208
-Forge: 10.13.2.1352
+[16:30:32] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[16:30:32] [Client thread/INFO] [JourneyMap] ensureCurrent ENTER
+[16:30:33] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from D:\MultiMC\instances\Foxycraft2.0\minecraft\journeymap\config\5.0\journeymap.core.config
+[16:30:33] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from D:\MultiMC\instances\Foxycraft2.0\minecraft\journeymap\config\5.0\journeymap.fullmap.config
+[16:30:33] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from D:\MultiMC\instances\Foxycraft2.0\minecraft\journeymap\config\5.0\journeymap.minimap.config
+[16:30:33] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from D:\MultiMC\instances\Foxycraft2.0\minecraft\journeymap\config\5.0\journeymap.minimap2.config
+[16:30:33] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from D:\MultiMC\instances\Foxycraft2.0\minecraft\journeymap\config\5.0\journeymap.webmap.config
+[16:30:33] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from D:\MultiMC\instances\Foxycraft2.0\minecraft\journeymap\config\5.0\journeymap.waypoint.config
+[16:30:33] [Client thread/INFO] [?] Version: JourneyMap 5.0.1 Unlimited, built with Forge 10.13.0.1208
+Forge: 10.13.3.1388
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_US, locale=en_us
 Unlimited Features: 
 	RadarPlayers : singleplayer = true , multiplayer = true
@@ -21,17 +21,27 @@ FullMapProperties{entityIconSetName=2D, showAnimals=true, showMobs=true, showPet
 WaypointProperties{autoHideLabel=true, beaconEnabled=true, boldLabel=false, createDeathpoints=true, fontScale=2, managerEnabled=true, maxDistance=0, name=waypoint, showDistance=true, showName=true, showRotatingBeam=true, showStaticBeam=true, showTexture=true, textureSmall=true}
 WebMapProperties: , enabled=false, port=8080, showMobs=true, showAnimals=true, showVillagers=true, showPets=true, showPlayers=true, showWaypoints=true, entityIconSetName=2D
 CoreProperties{announceMod=true, autoMapPoll=2000, browserPoll=2000, cacheAnimalsData=3100, cacheMobsData=3000, cachePlayerData=1000, cachePlayersData=2000, cacheVillagersData=2200, caveIgnoreGlass=true, checkUpdates=true, chunkOffset=8, chunkPoll=2000, hideSneakingEntities=true, logLevel=INFO, mapAntialiasing=true, mapBathymetry=false, mapCaveLighting=true, mapCrops=true, mapPlants=false, mapPlantShadows=false, mapSurfaceAboveCaves=true, mapTransparency=true, maxAnimalsData=32, maxMobsData=32, maxPlayersData=32, maxVillagersData=32, optionsManagerUsed=false, radarLateralDistance=64, radarVerticalDistance=16, recordCacheStats=false, renderOverlayEventTypeName=ALL, renderOverlayPreEvent=true, themeName=Victorian}
-[19:06:19] [Client thread/INFO] [JourneyMap] ensureCurrent EXIT, elapsed time: 677.03ms
-[19:06:56] [Client thread/INFO] [JourneyMap] postInitialize ENTER
-[19:06:56] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.ChatEventHandler registered in MinecraftForgeBus
-[19:06:56] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.StateTickHandler registered in FMLCommonHandlerBus
-[19:06:56] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.WorldEventHandler registered in MinecraftForgeBus
-[19:06:56] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.ChunkUpdateHandler registered in MinecraftForgeBus
-[19:06:56] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.WaypointBeaconHandler registered in MinecraftForgeBus
-[19:06:56] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
-[19:06:58] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.MiniMapOverlayHandler registered in MinecraftForgeBus
-[19:06:58] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.KeyEventHandler registered in FMLCommonHandlerBus
-[19:06:58] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
-[19:06:58] [Client thread/TRACE] [ThemeFileHandler] Initializing themes ...
-[19:06:58] [Client thread/DEBUG] [PropertiesBase] Saved journeymap.webmap.config
-[19:06:58] [Client thread/INFO] [JourneyMap] postInitialize EXIT, elapsed time: 2176.03ms
+[16:30:33] [Client thread/INFO] [JourneyMap] ensureCurrent EXIT, elapsed time: 570.88ms
+[16:31:05] [Client thread/INFO] [JourneyMap] postInitialize ENTER
+[16:31:05] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.ChatEventHandler registered in MinecraftForgeBus
+[16:31:05] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.StateTickHandler registered in FMLCommonHandlerBus
+[16:31:05] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.WorldEventHandler registered in MinecraftForgeBus
+[16:31:05] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.ChunkUpdateHandler registered in MinecraftForgeBus
+[16:31:05] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.WaypointBeaconHandler registered in MinecraftForgeBus
+[16:31:05] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
+[16:31:07] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.MiniMapOverlayHandler registered in MinecraftForgeBus
+[16:31:07] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forgehandler.KeyEventHandler registered in FMLCommonHandlerBus
+[16:31:07] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
+[16:31:07] [Client thread/TRACE] [ThemeFileHandler] Initializing themes ...
+[16:31:07] [Client thread/DEBUG] [PropertiesBase] Saved journeymap.webmap.config
+[16:31:07] [Client thread/INFO] [JourneyMap] postInitialize EXIT, elapsed time: 2043.07ms
+[16:33:39] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\MultiMC\instances\Foxycraft2.0\minecraft\journeymap\data\sp\Foxes have boners too\waypoints
+[16:33:43] [Client thread/INFO] [ColorCache] Getting color palette for Resource Pack(s): Default
+[16:33:45] [Client thread/INFO] [ColorCache] Color palette loaded 90856 colors in 581ms from file: D:\MultiMC\instances\Foxycraft2.0\minecraft\journeymap\colorpalette.json
+[16:33:45] [Client thread/INFO] [JourneyMap] Mapping started in D:\MultiMC\instances\Foxycraft2.0\minecraft\journeymap\data\sp\Foxes have boners too\DIM0. Memory: 2745MB total, 1180MB free 
+[16:33:45] [JM-VersionCheck-5/INFO] [VersionCheck$1] Checking for updated version: https://dl.dropboxusercontent.com/u/38077766/JourneyMap/journeymap-versions.json
+[16:33:45] [Client thread/INFO] [ChatLog] JourneyMap: Press [M]. (Webserver disabled.)
+[16:33:45] [JM-VersionCheck-5/INFO] [VersionCheck$1] Current version online: JourneyMap 5.0.1 for Minecraft 1.7.10 on http://journeymap.techbrew.net/download
+[16:33:54] [Client thread/INFO] [JourneyMap] Mapping halted in D:\MultiMC\instances\Foxycraft2.0\minecraft\journeymap\data\sp\Foxes have boners too\DIM0
+[16:33:54] [JM-task-6/WARN] [StatTimer] MapPlayerTask.performTask is not running.
+[16:33:54] [JM-task-6/WARN] [RunnableTask] Interrupted task that ran too long:net.techbrew.journeymap.task.TaskBatch@3cf3e84a

@@ -1,7 +1,6 @@
 
 # Like, blerb. Specifics.
 .DS_Store
-instance.cfg
 minecraft/smart_moving_options.txt
 minecraft/usernamecache.json
 minecraft/options.txt
@@ -22,9 +21,24 @@ minecraft/logs/**
 minecraft/journeymap/**
 minecraft/screenshots/**
 minecraft/screenshots/
+minecraft/saves/**
+minecraft/saves/
 natives/
 minecraft/config/IguanaTinkerTweaks/restrictions.cfg
 minecraft/mods/carpentersblocks/CarpentersBlocksCachedResources.zip
 minecraft/config/InvTweaks.cfg
 minecraft/config/IguanaTinkerTweaks/restrictions.cfg
 minecraft/journeymap/journeymap.log
+minecraft/minetweaker.log
+minecraft/config/cofh/core/common.cfg
+minecraft/SVLib.log
+minecraft/config/InvTweaks.cfg
+minecraft/config/AppliedEnergistics2/VersionChecker.cfg
+minecraft/config/InfernalMobs.cfg
+minecraft/config/cofh/core/common.cfg
+patches/net.minecraftforge.json
+minecraft/SVLib.log
+minecraft/config/IguanaTinkerTweaks/restrictions.cfg
+minecraft/config/cofh/core/common.cfg
+minecraft/mods/carpentersblocks/CarpentersBlocksCachedResources.zip
+minecraft/config/AppliedEnergistics2/VersionChecker.cfg

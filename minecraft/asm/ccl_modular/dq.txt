@@ -139,33 +139,43 @@ public class dq extends dy  {
     PUTFIELD dq.c : B
    L4
     LINENUMBER 46 L4
+    ALOAD 3
+    LDC 32
+    INVOKEVIRTUAL ds.a (J)V
+   L5
+    LINENUMBER 47 L5
     ALOAD 1
     INVOKEINTERFACE java/io/DataInput.readInt ()I
     ISTORE 4
-   L5
-    LINENUMBER 47 L5
+   L6
+    LINENUMBER 48 L6
     ALOAD 0
     NEW java/util/ArrayList
     DUP
     INVOKESPECIAL java/util/ArrayList.<init> ()V
     PUTFIELD dq.b : Ljava/util/List;
-   L6
-    LINENUMBER 49 L6
+   L7
+    LINENUMBER 50 L7
     ICONST_0
     ISTORE 5
-   L7
+   L8
    FRAME FULL [dq java/io/DataInput I ds I I] []
     ILOAD 5
     ILOAD 4
-    IF_ICMPGE L8
-   L9
-    LINENUMBER 51 L9
+    IF_ICMPGE L9
+   L10
+    LINENUMBER 52 L10
+    ALOAD 3
+    LDC 32
+    INVOKEVIRTUAL ds.a (J)V
+   L11
+    LINENUMBER 53 L11
     ALOAD 0
     GETFIELD dq.c : B
     INVOKESTATIC dy.a (B)Ldy;
     ASTORE 6
-   L10
-    LINENUMBER 52 L10
+   L12
+    LINENUMBER 54 L12
     ALOAD 6
     ALOAD 1
     ILOAD 2
@@ -173,36 +183,36 @@ public class dq extends dy  {
     IADD
     ALOAD 3
     INVOKEVIRTUAL dy.a (Ljava/io/DataInput;ILds;)V
-   L11
-    LINENUMBER 53 L11
+   L13
+    LINENUMBER 55 L13
     ALOAD 0
     GETFIELD dq.b : Ljava/util/List;
     ALOAD 6
     INVOKEINTERFACE java/util/List.add (Ljava/lang/Object;)Z
     POP
-   L12
-    LINENUMBER 49 L12
+   L14
+    LINENUMBER 50 L14
     IINC 5 1
-    GOTO L7
-   L8
-    LINENUMBER 56 L8
+    GOTO L8
+   L9
+    LINENUMBER 58 L9
    FRAME FULL [dq java/io/DataInput I ds I I] []
     RETURN
-   L13
-    LOCALVARIABLE nbtbase Ldy; L10 L12 6
-    LOCALVARIABLE k I L7 L8 5
-    LOCALVARIABLE j I L5 L8 4
-    LOCALVARIABLE this Ldq; L0 L13 0
-    LOCALVARIABLE p_152446_1_ Ljava/io/DataInput; L0 L13 1
-    LOCALVARIABLE p_152446_2_ I L0 L13 2
-    LOCALVARIABLE p_152446_3_ Lds; L0 L13 3
+   L15
+    LOCALVARIABLE nbtbase Ldy; L12 L14 6
+    LOCALVARIABLE k I L8 L9 5
+    LOCALVARIABLE j I L6 L9 4
+    LOCALVARIABLE this Ldq; L0 L15 0
+    LOCALVARIABLE p_152446_1_ Ljava/io/DataInput; L0 L15 1
+    LOCALVARIABLE p_152446_2_ I L0 L15 2
+    LOCALVARIABLE p_152446_3_ Lds; L0 L15 3
     MAXSTACK = 4
     MAXLOCALS = 7
 
   // access flags 0x1
   public a()B
    L0
-    LINENUMBER 60 L0
+    LINENUMBER 62 L0
     BIPUSH 9
     IRETURN
    L1
@@ -213,15 +223,15 @@ public class dq extends dy  {
   // access flags 0x1
   public toString()Ljava/lang/String;
    L0
-    LINENUMBER 65 L0
+    LINENUMBER 67 L0
     LDC "["
     ASTORE 1
    L1
-    LINENUMBER 66 L1
+    LINENUMBER 68 L1
     ICONST_0
     ISTORE 2
    L2
-    LINENUMBER 68 L2
+    LINENUMBER 70 L2
     ALOAD 0
     GETFIELD dq.b : Ljava/util/List;
     INVOKEINTERFACE java/util/List.iterator ()Ljava/util/Iterator;
@@ -232,13 +242,13 @@ public class dq extends dy  {
     INVOKEINTERFACE java/util/Iterator.hasNext ()Z
     IFEQ L4
    L5
-    LINENUMBER 70 L5
+    LINENUMBER 72 L5
     ALOAD 3
     INVOKEINTERFACE java/util/Iterator.next ()Ljava/lang/Object;
     CHECKCAST dy
     ASTORE 4
    L6
-    LINENUMBER 71 L6
+    LINENUMBER 73 L6
     NEW java/lang/StringBuilder
     DUP
     INVOKESPECIAL java/lang/StringBuilder.<init> ()V
@@ -257,11 +267,11 @@ public class dq extends dy  {
     INVOKEVIRTUAL java/lang/StringBuilder.toString ()Ljava/lang/String;
     ASTORE 1
    L7
-    LINENUMBER 68 L7
+    LINENUMBER 70 L7
     IINC 2 1
     GOTO L3
    L4
-    LINENUMBER 74 L4
+    LINENUMBER 76 L4
    FRAME FULL [dq java/lang/String I java/util/Iterator] []
     NEW java/lang/StringBuilder
     DUP
@@ -285,19 +295,19 @@ public class dq extends dy  {
   // access flags 0x1
   public a(Ldy;)V
    L0
-    LINENUMBER 79 L0
+    LINENUMBER 81 L0
     ALOAD 0
     GETFIELD dq.c : B
     IFNE L1
    L2
-    LINENUMBER 81 L2
+    LINENUMBER 83 L2
     ALOAD 0
     ALOAD 1
     INVOKEVIRTUAL dy.a ()B
     PUTFIELD dq.c : B
     GOTO L3
    L1
-    LINENUMBER 83 L1
+    LINENUMBER 85 L1
    FRAME FULL [dq dy] []
     ALOAD 0
     GETFIELD dq.c : B
@@ -305,15 +315,15 @@ public class dq extends dy  {
     INVOKEVIRTUAL dy.a ()B
     IF_ICMPEQ L3
    L4
-    LINENUMBER 85 L4
+    LINENUMBER 87 L4
     GETSTATIC java/lang/System.err : Ljava/io/PrintStream;
     LDC "WARNING: Adding mismatching tag types to tag list"
     INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/String;)V
    L5
-    LINENUMBER 86 L5
+    LINENUMBER 88 L5
     RETURN
    L3
-    LINENUMBER 89 L3
+    LINENUMBER 91 L3
    FRAME FULL [dq dy] []
     ALOAD 0
     GETFIELD dq.b : Ljava/util/List;
@@ -321,7 +331,7 @@ public class dq extends dy  {
     INVOKEINTERFACE java/util/List.add (Ljava/lang/Object;)Z
     POP
    L6
-    LINENUMBER 90 L6
+    LINENUMBER 92 L6
     RETURN
    L7
     LOCALVARIABLE this Ldq; L0 L7 0
@@ -332,7 +342,7 @@ public class dq extends dy  {
   // access flags 0x1
   public a(ILdy;)V
    L0
-    LINENUMBER 94 L0
+    LINENUMBER 96 L0
     ILOAD 1
     IFLT L1
     ILOAD 1
@@ -341,19 +351,19 @@ public class dq extends dy  {
     INVOKEINTERFACE java/util/List.size ()I
     IF_ICMPGE L1
    L2
-    LINENUMBER 96 L2
+    LINENUMBER 98 L2
     ALOAD 0
     GETFIELD dq.c : B
     IFNE L3
    L4
-    LINENUMBER 98 L4
+    LINENUMBER 100 L4
     ALOAD 0
     ALOAD 2
     INVOKEVIRTUAL dy.a ()B
     PUTFIELD dq.c : B
     GOTO L5
    L3
-    LINENUMBER 100 L3
+    LINENUMBER 102 L3
    FRAME FULL [dq I dy] []
     ALOAD 0
     GETFIELD dq.c : B
@@ -361,15 +371,15 @@ public class dq extends dy  {
     INVOKEVIRTUAL dy.a ()B
     IF_ICMPEQ L5
    L6
-    LINENUMBER 102 L6
+    LINENUMBER 104 L6
     GETSTATIC java/lang/System.err : Ljava/io/PrintStream;
     LDC "WARNING: Adding mismatching tag types to tag list"
     INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/String;)V
    L7
-    LINENUMBER 103 L7
+    LINENUMBER 105 L7
     RETURN
    L5
-    LINENUMBER 106 L5
+    LINENUMBER 108 L5
    FRAME FULL [dq I dy] []
     ALOAD 0
     GETFIELD dq.b : Ljava/util/List;
@@ -379,13 +389,13 @@ public class dq extends dy  {
     POP
     GOTO L8
    L1
-    LINENUMBER 110 L1
+    LINENUMBER 112 L1
    FRAME FULL [dq I dy] []
     GETSTATIC java/lang/System.err : Ljava/io/PrintStream;
     LDC "WARNING: index out of bounds to set tag in tag list"
     INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/String;)V
    L8
-    LINENUMBER 112 L8
+    LINENUMBER 114 L8
    FRAME FULL [dq I dy] []
     RETURN
    L9
@@ -398,7 +408,7 @@ public class dq extends dy  {
   // access flags 0x1
   public a(I)Ldy;
    L0
-    LINENUMBER 116 L0
+    LINENUMBER 118 L0
     ALOAD 0
     GETFIELD dq.b : Ljava/util/List;
     ILOAD 1
@@ -414,7 +424,7 @@ public class dq extends dy  {
   // access flags 0x1
   public b(I)Ldh;
    L0
-    LINENUMBER 121 L0
+    LINENUMBER 123 L0
     ILOAD 1
     IFLT L1
     ILOAD 1
@@ -423,7 +433,7 @@ public class dq extends dy  {
     INVOKEINTERFACE java/util/List.size ()I
     IF_ICMPGE L1
    L2
-    LINENUMBER 123 L2
+    LINENUMBER 125 L2
     ALOAD 0
     GETFIELD dq.b : Ljava/util/List;
     ILOAD 1
@@ -431,7 +441,7 @@ public class dq extends dy  {
     CHECKCAST dy
     ASTORE 2
    L3
-    LINENUMBER 124 L3
+    LINENUMBER 126 L3
     ALOAD 2
     INVOKEVIRTUAL dy.a ()B
     BIPUSH 10
@@ -448,7 +458,7 @@ public class dq extends dy  {
    FRAME FULL [dq I dy] [dh]
     ARETURN
    L1
-    LINENUMBER 128 L1
+    LINENUMBER 130 L1
    FRAME FULL [dq I] []
     NEW dh
     DUP
@@ -464,7 +474,7 @@ public class dq extends dy  {
   // access flags 0x1
   public c(I)[I
    L0
-    LINENUMBER 134 L0
+    LINENUMBER 136 L0
     ILOAD 1
     IFLT L1
     ILOAD 1
@@ -473,7 +483,7 @@ public class dq extends dy  {
     INVOKEINTERFACE java/util/List.size ()I
     IF_ICMPGE L1
    L2
-    LINENUMBER 136 L2
+    LINENUMBER 138 L2
     ALOAD 0
     GETFIELD dq.b : Ljava/util/List;
     ILOAD 1
@@ -481,7 +491,7 @@ public class dq extends dy  {
     CHECKCAST dy
     ASTORE 2
    L3
-    LINENUMBER 137 L3
+    LINENUMBER 139 L3
     ALOAD 2
     INVOKEVIRTUAL dy.a ()B
     BIPUSH 11
@@ -498,7 +508,7 @@ public class dq extends dy  {
    FRAME FULL [dq I dy] [[I]
     ARETURN
    L1
-    LINENUMBER 141 L1
+    LINENUMBER 143 L1
    FRAME FULL [dq I] []
     ICONST_0
     NEWARRAY T_INT
@@ -513,7 +523,7 @@ public class dq extends dy  {
   // access flags 0x1
   public d(I)D
    L0
-    LINENUMBER 147 L0
+    LINENUMBER 149 L0
     ILOAD 1
     IFLT L1
     ILOAD 1
@@ -522,7 +532,7 @@ public class dq extends dy  {
     INVOKEINTERFACE java/util/List.size ()I
     IF_ICMPGE L1
    L2
-    LINENUMBER 149 L2
+    LINENUMBER 151 L2
     ALOAD 0
     GETFIELD dq.b : Ljava/util/List;
     ILOAD 1
@@ -530,7 +540,7 @@ public class dq extends dy  {
     CHECKCAST dy
     ASTORE 2
    L3
-    LINENUMBER 150 L3
+    LINENUMBER 152 L3
     ALOAD 2
     INVOKEVIRTUAL dy.a ()B
     BIPUSH 6
@@ -546,7 +556,7 @@ public class dq extends dy  {
    FRAME FULL [dq I dy] [D]
     DRETURN
    L1
-    LINENUMBER 154 L1
+    LINENUMBER 156 L1
    FRAME FULL [dq I] []
     DCONST_0
     DRETURN
@@ -560,7 +570,7 @@ public class dq extends dy  {
   // access flags 0x1
   public e(I)F
    L0
-    LINENUMBER 160 L0
+    LINENUMBER 162 L0
     ILOAD 1
     IFLT L1
     ILOAD 1
@@ -569,7 +579,7 @@ public class dq extends dy  {
     INVOKEINTERFACE java/util/List.size ()I
     IF_ICMPGE L1
    L2
-    LINENUMBER 162 L2
+    LINENUMBER 164 L2
     ALOAD 0
     GETFIELD dq.b : Ljava/util/List;
     ILOAD 1
@@ -577,7 +587,7 @@ public class dq extends dy  {
     CHECKCAST dy
     ASTORE 2
    L3
-    LINENUMBER 163 L3
+    LINENUMBER 165 L3
     ALOAD 2
     INVOKEVIRTUAL dy.a ()B
     ICONST_5
@@ -593,7 +603,7 @@ public class dq extends dy  {
    FRAME FULL [dq I dy] [F]
     FRETURN
    L1
-    LINENUMBER 167 L1
+    LINENUMBER 169 L1
    FRAME FULL [dq I] []
     FCONST_0
     FRETURN
@@ -607,7 +617,7 @@ public class dq extends dy  {
   // access flags 0x1
   public f(I)Ljava/lang/String;
    L0
-    LINENUMBER 173 L0
+    LINENUMBER 175 L0
     ILOAD 1
     IFLT L1
     ILOAD 1
@@ -616,7 +626,7 @@ public class dq extends dy  {
     INVOKEINTERFACE java/util/List.size ()I
     IF_ICMPGE L1
    L2
-    LINENUMBER 175 L2
+    LINENUMBER 177 L2
     ALOAD 0
     GETFIELD dq.b : Ljava/util/List;
     ILOAD 1
@@ -624,7 +634,7 @@ public class dq extends dy  {
     CHECKCAST dy
     ASTORE 2
    L3
-    LINENUMBER 176 L3
+    LINENUMBER 178 L3
     ALOAD 2
     INVOKEVIRTUAL dy.a ()B
     BIPUSH 8
@@ -640,7 +650,7 @@ public class dq extends dy  {
    FRAME FULL [dq I dy] [java/lang/String]
     ARETURN
    L1
-    LINENUMBER 180 L1
+    LINENUMBER 182 L1
    FRAME FULL [dq I] []
     LDC ""
     ARETURN
@@ -654,7 +664,7 @@ public class dq extends dy  {
   // access flags 0x1
   public c()I
    L0
-    LINENUMBER 186 L0
+    LINENUMBER 188 L0
     ALOAD 0
     GETFIELD dq.b : Ljava/util/List;
     INVOKEINTERFACE java/util/List.size ()I
@@ -667,52 +677,52 @@ public class dq extends dy  {
   // access flags 0x1
   public b()Ldy;
    L0
-    LINENUMBER 191 L0
+    LINENUMBER 193 L0
     NEW dq
     DUP
     INVOKESPECIAL dq.<init> ()V
     ASTORE 1
    L1
-    LINENUMBER 192 L1
+    LINENUMBER 194 L1
     ALOAD 1
     ALOAD 0
     GETFIELD dq.c : B
     PUTFIELD dq.c : B
    L2
-    LINENUMBER 193 L2
+    LINENUMBER 195 L2
     ALOAD 0
     GETFIELD dq.b : Ljava/util/List;
     INVOKEINTERFACE java/util/List.iterator ()Ljava/util/Iterator;
     ASTORE 2
    L3
-    LINENUMBER 195 L3
+    LINENUMBER 197 L3
    FRAME FULL [dq dq java/util/Iterator] []
     ALOAD 2
     INVOKEINTERFACE java/util/Iterator.hasNext ()Z
     IFEQ L4
    L5
-    LINENUMBER 197 L5
+    LINENUMBER 199 L5
     ALOAD 2
     INVOKEINTERFACE java/util/Iterator.next ()Ljava/lang/Object;
     CHECKCAST dy
     ASTORE 3
    L6
-    LINENUMBER 198 L6
+    LINENUMBER 200 L6
     ALOAD 3
     INVOKEVIRTUAL dy.b ()Ldy;
     ASTORE 4
    L7
-    LINENUMBER 199 L7
+    LINENUMBER 201 L7
     ALOAD 1
     GETFIELD dq.b : Ljava/util/List;
     ALOAD 4
     INVOKEINTERFACE java/util/List.add (Ljava/lang/Object;)Z
     POP
    L8
-    LINENUMBER 200 L8
+    LINENUMBER 202 L8
     GOTO L3
    L4
-    LINENUMBER 202 L4
+    LINENUMBER 204 L4
    FRAME FULL [dq dq java/util/Iterator] []
     ALOAD 1
     ARETURN
@@ -728,25 +738,25 @@ public class dq extends dy  {
   // access flags 0x1
   public equals(Ljava/lang/Object;)Z
    L0
-    LINENUMBER 207 L0
+    LINENUMBER 209 L0
     ALOAD 0
     ALOAD 1
     INVOKESPECIAL dy.equals (Ljava/lang/Object;)Z
     IFEQ L1
    L2
-    LINENUMBER 209 L2
+    LINENUMBER 211 L2
     ALOAD 1
     CHECKCAST dq
     ASTORE 2
    L3
-    LINENUMBER 211 L3
+    LINENUMBER 213 L3
     ALOAD 0
     GETFIELD dq.c : B
     ALOAD 2
     GETFIELD dq.c : B
     IF_ICMPNE L1
    L4
-    LINENUMBER 213 L4
+    LINENUMBER 215 L4
     ALOAD 0
     GETFIELD dq.b : Ljava/util/List;
     ALOAD 2
@@ -754,7 +764,7 @@ public class dq extends dy  {
     INVOKEINTERFACE java/util/List.equals (Ljava/lang/Object;)Z
     IRETURN
    L1
-    LINENUMBER 217 L1
+    LINENUMBER 219 L1
    FRAME FULL [dq java/lang/Object] []
     ICONST_0
     IRETURN
@@ -768,7 +778,7 @@ public class dq extends dy  {
   // access flags 0x1
   public hashCode()I
    L0
-    LINENUMBER 222 L0
+    LINENUMBER 224 L0
     ALOAD 0
     INVOKESPECIAL dy.hashCode ()I
     ALOAD 0
@@ -784,7 +794,7 @@ public class dq extends dy  {
   // access flags 0x1
   public d()I
    L0
-    LINENUMBER 227 L0
+    LINENUMBER 229 L0
     ALOAD 0
     GETFIELD dq.c : B
     IRETURN
