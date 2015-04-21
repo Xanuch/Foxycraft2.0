@@ -1,0 +1,16 @@
+$ cat .gitignore
+
+# Can ignore specific files
+.DS_Store
+instance.cfg
+minecraft\smart_moving_options.txt
+minecraft\usernamecache.json
+
+
+# Use wildcards as well
+*.log
+
+# Can also ignore all directories and files in a directory.
+minecraft\journeymap\*
+minecraft\logs\*
+minecraft\saves\*
