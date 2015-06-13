@@ -1,0 +1,12 @@
+
+Loading excluded list from: S:\MultiMC\instances\Foxycraft 2.0\minecraft\saves\GET SUPERUPDATEDDNKG
+No exclusions found for this world.
+
+Loading options from: S:\MultiMC\instances\Foxycraft 2.0\minecraft\saves\GET SUPERUPDATEDDNKG
+tries_per_chunk_normal = 6
+chance_to_spawn_normal = 10.0
+templateInstancesMinDistance = 256.0
+anyRuinsMinDistance = 64.0
+Ruins mod loaded successfully for world S:\MultiMC\instances\Foxycraft 2.0\minecraft\saves\GET SUPERUPDATEDDNKG, template files: 32
+ate files: 32
+2
